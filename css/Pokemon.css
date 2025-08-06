@@ -1,0 +1,66 @@
+html, body
+{
+    height: 100%; /*o número e a porcentagem indicam a qutd de espaçõ que irá ser ocupado da tela*/
+    margin: 0;
+    font-family: sans-serif;
+    color: blue;
+}
+
+.parallax1{
+    position: relative; /*define o posicionamento*/
+    background-image:url("../img/pokemon-go.webp"); /*insere a imagem de fundo*/
+    height: 100%; /*o número e a porcentagem indicam o tanto que a div irá ser ocupada*/
+    opacity: 0.5; /*deixa a imagem mais opaca*/
+    background-attachment: fixed; /*deixa a imagem fixa*/
+    background-position: center; /*centraliza a imagem*/
+    background-repeat: no-repeat; /*não repete a imagem caso a tela seja maior que a imagem*/
+    background-size: cover; /*ajusta a proporção da imagem na tela*/
+}
+.caption{
+    position: absolute; /*define o posicionamento da div*/
+    left: 0; /*gruda o quadro no canto esquerdo*/
+    top: 50%; /*coloca o quadro com o texto no centro da div parallax1*/
+    width: 100%;
+    text-align: center; /*define o texto ao centro*/
+}
+.caption span.border{
+    background-color: rgba(255, 255, 255, 0.651); /*define a cor de fundo do texto*/
+    color: blue; /*define a cor do texto*/
+    padding: 20px; /*define o espaçamento entre a caixa e o texto*/
+    font-size: 25px; /*aumentar tamanho da fonte*/
+    letter-spacing: 10px; /*aumentar espaçamento das letras*/
+}
+.parallax2{
+    position: relative;
+    background-image: url("../img/maxresdefault.jpg");
+    height: 100%;
+    opacity: 0.5;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax3{
+    position: relative;
+    background-image: url("../img/pokemon-tipo-1920x1080.jpg");
+    height: 100%;
+    opacity: 0.5;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box1{
+    background-color: white;
+    text-align: justify;
+    padding: 50px 80px;
+}
+.box1 h3{
+    text-align: center;
+}
+.box2{
+    background-color: #808080;
+    color: white;
+    text-align: center;
+    padding: 50px 80px;
+}
